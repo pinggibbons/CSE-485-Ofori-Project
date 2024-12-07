@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body 
+{
+    background-image: url('https://www.oforibeauty.ca/cdn/shop/files/BIPOC-HOME.1920-four-bipoc-pink-blue-purple-abstract-illustration-woman-indigenous-people-of-colour.jpg?v=1722948266&width=3840'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px 20px; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.container 
+{
+    padding: 20px 30px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container .contact_box form
+{
+    padding: 20px 30px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contact_box form input 
+{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+    width: 250px;
+    background: none;
+}
+.container .contact_box form textarea 
+{
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 20px;
+    width: 250px;
+    background: none;
+    resize: none;
+}
+.container .contact_box form button 
+{
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 0px;
+    background: #010f1c;
+    outline: none;
+    border: none;
+    color:  #fff;
+    cursor: pointer;
+}
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #F08080;
+}
+p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 0px;
+}
